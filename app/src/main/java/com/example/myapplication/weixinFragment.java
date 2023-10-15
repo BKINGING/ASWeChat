@@ -33,19 +33,19 @@ public class weixinFragment extends Fragment {
     }
 
     private void initData() {
-        String[] imgSrc = {"https://uploadfile.huiyi8.com/2015/0610/20150610023414897.jpg",
-                "https://tupian.qqw21.com/article/UploadPic/2020-10/2020102118172486410.jpg",
-                "https://tse1-mm.cn.bing.net/th/id/R-C.f06917566447b07f1fd02df8d2b90afe?rik=gcK32hcXo%2fECSQ&riu=http%3a%2f%2fwww.fzlol.com%2fupimg%2fallimg%2f140321%2f1_19401130B.jpg&ehk=4tikPQlp0d5wKQ1m1Y%2fuK0giIpiRn6Cp1pb6lfJwl8I%3d&risl=&pid=ImgRaw&r=0",
-                "https://tupian.qqw21.com/article/UploadPic/2012-9/2012928918625.jpg",
-                "https://tse1-mm.cn.bing.net/th/id/R-C.b9c66bc2c06e04ea70aa694cd270661e?rik=8cfGRPR073C6AQ&riu=http%3a%2f%2ftouxiang.vipyl.com%2fattached%2fimage%2f20130222%2f20130222152219531953.jpg&ehk=rECfEJntkfPQN2acCWpC6PqeI8xP1%2bGs59IOEKCd2tQ%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1",
-                "https://tse1-mm.cn.bing.net/th/id/R-C.60c49ed1f68019e00572dd33dff274f4?rik=eOWqUDbxEyvn%2fQ&riu=http%3a%2f%2fscimg.jianbihuadq.com%2f202008%2f202008282115115.jpg&ehk=upxZxNKo1zee4RtaKIAgzk%2b7rdB0t084DdNXO6o8V%2fE%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1",
-                "https://tse1-mm.cn.bing.net/th/id/R-C.a13d84b340cd08244268db8f8f8b1922?rik=Z0t8GBFlkY4Mhg&riu=http%3a%2f%2fscimg.jianbihuadq.com%2f202010%2f2020101711593861.jpg&ehk=yfqLWJ5S5%2fBHEzqv0YaZcSXYqFDpw6I8kKaRBoh%2fxcI%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1",
-                "https://tse2-mm.cn.bing.net/th/id/OIP-C.eQ-HYGnNOjgSAvllNDVS4AAAAA?w=150&h=150&c=7&r=0&o=5&pid=1.7"
+        String[] imgSrc = {"https://img.touxiangwu.com/zb_users/upload/2022/12/202212051670208807419337.jpg",
+                "https://www.beihaiting.com/uploads/allimg/160212/10723-1602120951452J.jpg",
+                "https://upload-images.jianshu.io/upload_images/18279216-625cefbb47c316a1?imageMogr2/auto-orient/strip|imageView2/2/format/webp",
+                "https://tse4-mm.cn.bing.net/th/id/OIP-C.5edzIeOn6loCRwkYK1LnjgHaED?pid=ImgDet&rs=1",
+                "https://ts1.cn.mm.bing.net/th/id/R-C.e3ee06dd3fd26471fc34656a7c45df79?rik=X%2bxecOO1lLXcLw&riu=http%3a%2f%2fqimg.hxnews.com%2f2017%2f0820%2f1503191526949.jpeg&ehk=4V4cqIgdhI2z8WAfrhCRw2zQlaiDUQycu0OG4xNuEy0%3d&risl=&pid=ImgRaw&r=0",
+                "https://ts1.cn.mm.bing.net/th/id/R-C.d63793ae33409c0c1d34d9d0a018b070?rik=bSj2dvd%2fJzQzFQ&riu=http%3a%2f%2fimg1.gtimg.com%2fent%2fpics%2fhv1%2f86%2f39%2f1704%2f110812631.jpg&ehk=IMqiuo4zmlFwCz6GcDc1ksbEDLaAxJRsCnfOx8pFaSg%3d&risl=&pid=ImgRaw&r=0",
+                "https://c-ssl.duitang.com/uploads/item/202004/24/20200424193152_cdpzf.jpeg",
+                "https://gss0.baidu.com/7Po3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D600%2C800/sign=8ae53caa70899e5178db32127297f50b/0823dd54564e92586e1669b99782d158ccbf4e43.jpg"
 
         };
-        String[] cttName = {"张三", "李四", "王五","赵六","杨七","李八","刘XX","周十"};
+        String[] cttName = {"蓦山溪", "离亭燕", "山亭柳","两同心","泠青沼","山月","秋日薄暮","摘星"};
         String[] cttTime = {"下午4：32","下午3：10","上午11：20","上午8：21","昨天","昨天","3月21日","2021年12月10日"};
-        String[] cttMsg = {"愉悦~","呵呵","怎么回事？","从未如此美妙的开局","哈哈","也许不过如此","在哪里碰头？","万丈高楼平地起"};
+        String[] cttMsg = {"须知少时凌云志","加油","怎么回事？","可以可以","哈哈","也许不过如此","牛的","万丈高楼平地起"};
         for (int i = 0; i < imgSrc.length; i++) {
             Map<String, Object> itemData = new HashMap<String, Object>();
             itemData.put("key1", imgSrc[i]);
